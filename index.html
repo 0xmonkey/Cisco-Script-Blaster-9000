@@ -1,0 +1,38 @@
+
+<!DOCTYPE html> 
+	<html> 
+	<head> 
+		<title>Script Blaster 9000</title>
+		<link rel="icon" href="University_of_Kansas_Jayhawk_logo.svg.png">
+		<style>
+		body {
+			background-color: #ADD8E6;
+		}
+		</style>
+	</head> 
+	
+	<body>
+		<h1>Cisco Script Blaster 9000</h1>
+		<h3>Choose a Format:</h3> 
+		<form action="makeScript.php" method="post">
+		<input type="radio" name="format" value="2"> x/y [example: int Gi 1/2]</input>
+		<input type="radio" name="format" value="3"> x/y/z [example: int Gi 1/2/1]</input><br>
+		<h3>Choose Interface Ranges:</h3> 
+		<label>Min X Value</label><br>
+		<input type="text" name="x_min"><br>
+		<label>Max X Value</label><br>
+		<input type="text" name="x_max"><br>
+		<label>Min Y Value</label><br>
+		<input type="text" name="y_min"><br>
+		<label>Max Y Value</label><br>
+		<input type="text" name="y_max"><br><br>
+		<label>If Applicable</label><br>
+		<label>Min Z Value</label><br>
+		<input type="text" name="z_min"><br>
+		<label>Min Z Value</label><br>
+		<input type="text" name="z_max"><br><br>
+		<input type="submit">
+		</form>
+		
+	</body> 
+	</html>
